@@ -5,7 +5,8 @@ require 'pp'
 def directors_totals(nds)
   index = 0 
   totals = {}
-  while 
+  while index < nds.length do
+    
 
   
 end

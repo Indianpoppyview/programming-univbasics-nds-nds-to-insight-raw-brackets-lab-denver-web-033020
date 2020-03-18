@@ -13,7 +13,11 @@ def directors_totals(nds)
       totals[name] += nds[index][:movies][movie][:worldwide_gross]
       movie += 1 
 end
-      index += 1
+      index += 1 
+end 
+    totals
+end 
+
   # Remember, it's always OK to pretty print what you get *in* to make sure
   # that you know what you're starting with!
   #

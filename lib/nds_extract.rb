@@ -4,6 +4,7 @@ require 'pp'
 
 def directors_totals(nds)
   index = 0 
+  totals = {}
   
 
   
